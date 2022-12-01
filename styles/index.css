@@ -281,13 +281,13 @@
     grid-template-rows: 100%;
     grid-template-columns: 45% 45%;
     justify-content: space-between;
-    padding: 30px;
+    padding: 2em;
     background-image: linear-gradient(rgb(179, 187, 189), rgb(201, 221, 224));
   }
 
   .equipe h3 {
     text-align: center;
-    font-size: 2.36rem;
+    font-size: 3rem;
     font-weight: 400;
     font-family: Dancing Script;
   }
@@ -299,25 +299,25 @@
       "p";
     grid-template-rows: 40% 70%;
     grid-template-columns: 1fr;
-    padding-left: 50px;
+    padding-left: 3em;
   }
 
   .grade__equipe img {
-    width: 83.84vh;
-    height: 52.48vh;
-    padding-top: 50px;
+    width: 84vh;
+    height: 52vh;
+    padding-top: 3em;
   }
 
   .grade__equipe p {
     font-family: Mulish;
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     text-align: justify;
-    padding-top: 170px;
+    padding-top: 6em;
   }
 
   .pratos h3 {
     text-align: center;
-    font-size: 38px;
+    font-size: 3rem;
     font-weight: 400;
     font-family: Dancing Script;
   }
@@ -329,20 +329,21 @@
       "img img img";
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding-top: 80px;
+    padding-top: 3em;
     align-items: center;
   }
 
   .grade__pratos img {
-    width: 24.96vh;
-    height: 20.48vh;
-    transition: height 1s;
-    transition: width 1s;
+    width: 28vh;
+    height: 20vh;
+    padding: 0.3em;
+    /*transition: height 2s, width 2s;*/
   }
 
   .grade__pratos img:hover {
-    height: 22.5vh;
-    width: 25vh;
+    /*width: 32vh;
+    height: 24vh;*/
+    transform: translate(1em, 1em);
   }
 
   .endereco {
